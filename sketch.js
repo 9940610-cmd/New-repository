@@ -2,15 +2,15 @@ let currentScreen = "LOGIN"; // 初始狀態為登入畫面
 let accountInput, passwordInput, loginButton; 
 let loginErrorMessage = ""; 
 
-let currentLetter = "";     // 當前正在挑戰的字母 (A-Z)
+let currentLetter = "";     // 
+當前正在挑戰的字母 (A-Z)
 let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 let levelPositions = [];    // 儲存 26 個關卡燈泡的位置
 
 // 紀錄哪些關卡已經被點亮
 let unlockedLevels = {}; 
 
-// 關卡挑戰控制變數
-let isLevelCompleted = false;
+// 關卡挑戰控制變數let isLevelCompleted = false;
 let objectX; // 動畫 X 座標
 let objectAlpha = 0; 
 
